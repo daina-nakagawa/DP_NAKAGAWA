@@ -33,7 +33,7 @@ GitHub上でのリポジトリ作成からファイルのpushまで。
 
 
 
-# パスワードを毎回聞かれないために
+## パスワードを毎回聞かれないために
 
 - ヘルパーを設定する 
 git config --global credential.helper wincred
@@ -41,7 +41,5 @@ git config --global credential.helper wincred
 - 設定内容を確認する
 git config --global --list
 
-
-# 初回だけログインが必要
-
-- Authorize GitCredentialManager
+- 初回だけログインがいる
+Authorize GitCredentialManager
